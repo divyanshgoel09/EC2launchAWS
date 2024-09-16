@@ -1,7 +1,9 @@
 # EC2launchAWS
 A user can launch a EC2 instance on your AWS account by just clicking on a link provided by you 
+Here we used AWS Lambda, AWS EC2 Instance, AWS API Gateway.
 
-**A first we made a AWS lambda function where we used the BOTO3 library of python which launches EC2 instance on our accouunt.**
+In the given python code by the help of BOTO3 library we write a code that launches a EC2 instance on the LINK provider account and when that EC2 instance get into the Running state the subscribed user (AWS account owner or we can say the concerned user that we have added in Subscription result) of SNS will receive a notification
+**First we made a AWS lambda function where we used the BOTO3 library of python which launches EC2 instance on our accouunt.**
 ![2222](https://github.com/divyanshgoel09/EC2launchAWS/assets/118998853/050822ef-a413-439d-a827-7247a0b366b1)
 _The python code is avaiable in file._
 
